@@ -1,0 +1,8 @@
+Thực_tế chỉ có ba đối_tượng chính trong mô_hình . 
+Connection : Đại_diện kết_nối thực_sự . 
+Command : Được sử_dụng để thực_thi các query dựa vào kết_nối dữ_liệu . 
+Recordset : Đại_diện cho một tập các Record được chọn query thông_qua đối_tượng Command . 
+Đối_tượng Connection chứa một tập các đối_tượng còn gọi là các đối_tượng Errors đối_tượng này giữ lại bất_kỳ một thông_tin lỗi nào có liên_quan đến kết_nối . 
+Đối_tượng Command có một tập các đối_tượng con là Paramenters để giữ bất_cứ tham_số nào có_thể thay_thế cho query . 
+Recordset cũng có một tập các đối_tượng con Properties để lưu các thông_tin chi_tiết về đối_tượng . 
+Các thuộc_tính đặc_biệt của đối_tượng ADO . 

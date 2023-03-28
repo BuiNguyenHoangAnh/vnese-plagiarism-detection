@@ -1,0 +1,33 @@
+Tính tự mô_tả dữ_liệu của XML : các tags mô_tả các vấn_đề , các đối_tượng gần gủi với thế_giới thực . 
+Chúng_ta sẽ thấy rõ hơn với hai ví_dụ sau , đây là ví_dụ minh_hoạ nên nó còn thiếu nhiều thuộc_tính trong thế_giới thực . 
+XML có mối quan_hệ chặt_chẽ với JSP , đặt tả JSP hổ trợ cú_pháp XML , chúng_ta có_thể trộn lẫn mã chúng với nhau dễ_dàng như JSP với HTML như thế chúng_ta có_thể dùng JSP tự_động phát_sinh trang XML . 
+Hiện_nay có rất nhiều sản_phẩm quản_trị cơ_sở_dữ_liệu mà mỗi sản_phẩm đều có các đặc_tính riêng nó , do đó khi các cơ_sở_dữ_liệu khác nhau cần chuyển_đổi dữ_liệu với nhau lại không tương_thích . 
+Vì vậy người làm công_việc này cần phải biết nhiều sản_phẩm quản_trị cơ_sở_dữ_liệu khác nhau . 
+Do đó XML là một định_dạng chuẩn mà các hệ quản_trị cần hổ trợ . 
+Hiện_nay có nhiều hệ quản_trị lớn hổ trợ XML như MS_SQL_Server , Oracle , ... 
+Tuy có những tính_năng và ưu_điểm như đã trình_bày ở trên nhưng nó cũng còn nhiều hạn_chế như chạy chậm khi khối_lượng dữ_liệu lớn , khả_năng quản_lý khối_lượng dữ_liệu còn hạn_chế , khả_năng bảo_mật chưa cao . 
+XSLT . 
+Extensible_Stylesheet_Language_Transformation ( XSLT ) là một ngôn_ngữ được tách ra từ ngôn_ngữ XSL , " XSLT là một ngôn_ngữ dùng để chuyển_đổi các XML document thành các XML document khác " . 
+Nó được viết bằng XML , điều này có nghĩa rằng sự chuyển_đổi trong XSLT được trình_bày như một well-formed XML document . 
+XSLT đóng vai_trò quan_trọng trong hướng phát_triển " phát_sinh ngôn_ngữ markup hướng người dùng " . 
+JSP scripting elements . 
+Các biến được định_nghĩa sẵn trong JSP . 
+Để đơn_giản_hoá mã trong các biểu_thức hay scriptlets trong JSP , người_ta cung_cấp cho chúng_ta chín đối_tượng đã được định_nghĩa trước , có người còn gọi là các đối_tượng ngầm định . 
+Do các khai_báo trong JSP nằm ngoài phương_thức - jspService ( được gọi bởi service ) nên các đối_tượng này không cho_phép các khai_báo truy_cập vào . 
+Trong một trang lỗi , chúng_ta có_thể truy_cập vào đối_tượng exception . 
+Biến này có kiểu là javalangThrowable và phạm vị là trang ( page ) . 
+Biểu_thức trong JSP . 
+KẾT_LUẬN . 
+Ứng_dụng đã đáp_ứng được yêu_cầu đề ra trong giai_đoạn phân_tích thiết_kế hệ_thống . 
+Ứng_dụng kết_hợp được các công_nghệ độc_lập nền JSP , XML , XSLT , MySQL_Server do đó có_thể chạy trên nhiều nền , nhiều Web_Server và nhiều Web_Broswer khác nhau . 
+Về cơ_sở_dữ_liệu , sơ_đồ thực_thể kết_hợp đạt dạng chuẩn ba . 
+Ứng_dụng sử_dụng cả hai mô_hình web là " Kiến_Trúc Mô_Hình_Một và Hai " - " JSP_Model_1_and_2_Architecture " . 
+HƯỚNG PHÁT_TRIỂN . 
+Các hướng phát_triển sau sẽ làm cho ứng_dụng hoàn_thiện hơn . 
+Mở_rộng ứng_dụng với quy_mô lớn hơn , có khả_năng trao_đổi dữ_liệu và xử_lý với ứng_dụng khác . 
+Phát_triển ứng_dụng để download các files báo_cáo về client . 
+Quản_lý các hình_ảnh liên_quan về công_việc cho ứng_dụng sinh_động hơn . 
+Dùng DOM xử_lý XML ngay tại client . 
+Cài_đặt các ràng buột toàn_vẹn trên database server trong phiên_bản mới của hệ quản_trị cơ_sở_dữ_liệu MySQL ( phiên_bản 40 ) . 
+Do phiên_bản hiện_tại ( đang sử_dụng MySQL_32327 ) không hổ trợ khoá ngoại , check , rule và trigger . 
+

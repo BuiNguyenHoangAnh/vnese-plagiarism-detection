@@ -1,0 +1,6 @@
+ADO là gì ? 
+ADO ( Activex_Data_Object hay đối_tượng dữ_liệu ActiveX ) . 
+Ta có_thể hình_dung rằng ADO là một mô_hình làm giảm kích_thước của mô_hình RDO ( Đối_tượng dữ_liệu từ xa ) . 
+Mô_hình đối_tượng dữ_liệu ActiveX rất gọn . 
+Nó được thiết_kế để cho_phép lập_trình_viên lấy được một tập các Record từ nguồn dữ_liệu một_cách nhanh nhất nếu có_thể . 
+Tốc_độ và tính đơn_giản là một trong những mục_tiêu cốt_lõi của ADO , mô_hình này được thiết_kế để cho_phép tạo ra một đối_tượng Recordset mà không cần phải di_chuyển qua các đối_tượng trung_gian khác trong quá_trình lập_trình . 

@@ -1,0 +1,35 @@
+Phần_lớn các nhà lập_trình Visual_Basic không tương_tác trực_tiếp với OLEDB . 
+Thay vào đó , họ lập_trình với ADO , mô_hình đối_tượng cung_cấp giao_diện với OLEDB . 
+Ngoài_ra , kỹ_thuật lập_trình hướng đối_tượng có_thể phân_chia tại vài mức khác nhau . 
+Nhờ kế_thừa cả cấu_trúc dữ_liệu và hành_vi mà chúng_ta có_thể chia_sẻ cấu_trúc chung trong vài lớp con giống nhau mà không dư_thừa . 
+Tiến_bộ chính của ngôn_ngữ hướng đối_tượng chính là việc phân_chia mã sử_dụng kế_thừa . 
+Khi dùng ADO thì chỉ cần lập_trình với phần giao_diện người sử_dụng ở phía Client . 
+Bởi_vì việc truy_cập dữ_liệu trên cả trình_duyệt Wed và ứng_dụng Visual_Basic được chuyển hết về phía Activex_Server nên logic chương_trình luôn nhất_quán , bất_kể loại ứng_dụng nào đang được sử_dụng . 
+Cấu_trúc này cho_phép dùng thành_phần lập_trình Activex thông_dụng trên cả trình_duyệt Wed và ứng_dụng Client_Visual_Basic . 
+Các điều_khiển giao_diện người sử_dụng . 
+Khác với các điều_khiển giao_diện người sử_dụng , các điều_khiển này không được cung_cấp bởi hệ_điều_hành . 
+Thay vào đó , ta phải phân_phát điều_khiển bổ_sung vào các máy_tính của người sử_dụng để ứng_dụng có_thể sử_dụng chúng . 
+Sử_dụng điều_khiển DataGrid : DataGrid có khả_năng hiển_thị dữ_liệu dưới dạng dòng , cột khi ràng_buộc với điều_khiển ADO_Data hay trình thiết_kế DataEnvironment . 
+Sử_dụng điều_khiển DataList và DataCombo : Điều_khiển DataList và DataCombo là những điều_khiển sao_chép lại các chức_năng của điều_khiển DBList . 
+DataList cung_cấp danh_sách các chọn_lựa , DataCombo dùng nối_kết dữ_liệu nhập vào điều_khiển với một trường trong cơ_sở_dữ_liệu , cả hai đều tương_thích với DAO_Data và ADO_Data mới . 
+Sử_dụng các câu truy_vấn ( SQL ) . 
+Một câu truy_vấn là một lệnh cơ_sở_dữ_liệu để lấy về các mẩu tin . 
+Sử_dụng câu truy_vấn , có_thể lấy dữ_liệu từ một hoặc nhiều trường trong một hay nhiều bảng . 
+Ngoài_ra , còn có_thể ép các dữ_liệu lấy về theo một hoặc nhiều ràng_buộc , gọi là các tiêu_chí để hạn_chế số_lượng dữ_liệu lấy về . 
+SQL là giải_pháp chuẩn để thao_tác với cơ_sở_dữ_liệu . 
+Nó được thực_hiện theo nhiều dạng khác nhau trong các hệ_thống cơ_sở_dữ_liệu quan_hệ , bao_gồm Access và SQL_Server . 
+Các câu truy_vấn SQL cho khả_năng lấy về các mẩu tin từ một bảng cơ_sở_dữ_liệu , đối_chiếu các dữ_liệu quan_hệ với nhau trong nhiều bảng và thao_tác với cấu_trúc của cơ_sở_dữ_liệu . 
+Các kiểu truy_vấn SQL nhất_định có_thể điền dữ_liệu vào một điều_khiển dữ_liệu . 
+Trong chương_trình , các câu truy_vấn SQL được dùng khi thao_tác với các cơ_sở_dữ_liệu thông_qua sử_dụng mô_hình đối_tượng DAO , RDO và ADO . 
+Lợi_ích khi dùng SQL . 
+ĐÓNG_GÓI - ĐÁNH_GIÁ VÀ HƯỚNG PHÁT_TRIỂN ĐỀ_TÀI . 
+Để chương_trình mang một phần tính chuyên_nghiệp , cần đóng_gói chương_trình thành_bộ Setup ( Package & Deloyment_Wizard ) và có_thể cung_cấp cho người sử_dụng bộ Setup này như có_thể sao_chép , cài_đặt và có_thể sử_dụng trên bất_kỳ máy_tính nào . 
+Một chương_trình hoàn_hảo để đảm_bảo cho công_việc kế_toán thực_thụ thì đòi_hỏi tính chuyên_nghiệp rất cao , nên trên cơ_sở nghiên_cứu và phát_triển , đề_tài chỉ đáp_ứng được phần_nào cho người sử_dụng hiểu khái_quát về kế_toán , cũng như cách nghiên_cứu về cơ_sở_dữ_liệu cho kế_toán doanh_nghiệp . 
+Ngoài_ra , nắm_bắt cách sử_dụng ngôn_ngữ_lập_trình để tạo và phát_triển các chương_trình ứng_dụng . 
+Đồng_thời góp_phần làm hoàn_hảo một chương_trình kế_toán có_thể đáp_ứng rộng_rãi cho nhiều doanh_nghiệp sử_dụng . 
+Đề_tài cần được bổ_sung những thiếu_sót , hạn_chế như chưa tính_toán được tồn_quỹ tiền_mặt , tồn_kho hàng_hoá và giá_vốn hàng bán . 
+Và phát_triển theo hướng mở_rộng như tìm_kiếm các loại hàng tồn_kho , khách_hàng có công_nợ , tình_hình thu_chi tồn_quỹ tiền_mặt , tiền_lương để trả cho công_nhân viên_chức của doanh_nghiệp trong tháng , quý hay trong từng thời_kỳ sản_xuất kinh_doanh . 
+Cuối_cùng tôi xin chân_thành cám_ơn đến thầy Đỗ_Văn_Uy đã tạo điều_kiện , giúp_đỡ tôi trong quá_trình nghiên_cứu và phát_triển đề_tài . 
+Mặc_dù không được trực_tiếp , hạn_chế về khoảng_cách và thời_gian nhưng thầy đã đóng_góp những ý_kiến quý báo cho tôi hoàn_thành đề_tài . 
+Xin chân_thành cảm_ơn . 
+

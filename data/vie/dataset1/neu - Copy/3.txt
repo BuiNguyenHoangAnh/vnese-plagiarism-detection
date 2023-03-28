@@ -1,0 +1,4 @@
+IIS là một dịch_vụ tuỳ_chọn của Windows_NT server cung_cấp các tính_năng về Web_site . 
+Giải_pháp phổ_biến nhất của Microsoft cho một Web site là chạy IIS trên nền Windows_NT server . 
+IIS là một thành_phần cơ_bản để xây_dựng một Internet hoặc Intranet server trền nền Windows_NT_40 , Workstation và Win_95 . 
+IIS được tích_hợp đầy_đủ trong Windows_NT_40 .

@@ -1,0 +1,36 @@
+Biến , Kiểu biến và cách khai_báo . 
+Biến . 
+Tương_tự như các ngôn_ngữ_lập_trình khác , biến là một yếu_tố không_thể thiếu , biến như là một phần của bộ_nhớ , muốn dử dụng ta phải khai_báo . 
+Tên biến không dài quá 255 ký_tự , có tính gợi nhớ , không dùng các ký_hiệu , tránh dùng các từ_khoá của VB . 
+Kiểu của biến . 
+Khi khai_báo biến ta phải khai boá kiểu cho nó . 
+Trong VB , người_ta dùng một loại tiếp ngữ như $ , & , # , @ , ... 
+để biết biến đó có kiểu là gì , cụ_thể như sau . 
+String : là kiểu dữ_liệu chuỗi , khoảng giá_trị có_thể lên đến hai tỷ ký_tự . 
+Nhận_biết biến này bằng tiếp ngữ $ . 
+Ví_dụ : Hoten$ = " Trần_Văn_Hai " . 
+Byte : là kiểu số_nguyên dương , khoảng giá_trị từ 0 đến 255 . 
+Long : là các số_nguyên , khoảng giá trịn từ -2147483648 đến 2147483647 . 
+Nhận_biết biến này bằng dấu & ở cuối . 
+Ví_dụ : A& 50 . 
+Integer : là các số_nguyên từ -32.768 đến 32767 . 
+Nhận_biết bằng dấu % ở cuối . 
+Ví_dụ : b % = 1234 . 
+Single : là các số có dấu chấm thập_phân , có giá_trị âm từ -3,402823E8 đến -1,40129823E8 và có gía trị dương từ 1,401298E-45 đến 3,402823E8 . 
+Nhận_biết bằng dấu ! 
+ở cuối . 
+Ví_dụ : C ! = 47 . 
+Double : là các số có dấu chấm thập_phân . 
+Nhận_biết bằng dấu # ở cuối . 
+Khoảng giá_trị từ -1,797693134486231E308 đến -44,94065645841247E-324 , giá_trị dương từ 44,94065645841247E-324 đến 1,797693134486231E308 . 
+Ví_dụ : D# = 6432 . 
+Currency : Có 15 số nằm bên trái dấu phảy , 4 số nằm bên trái dấu phảy . 
+Nhập biết bằng dấu @ ở cuối . 
+Khoảng giá_trị từ -922337203685477,5808 đến 922337203685477,5807 . 
+Ví_dụ : e@ = 51234 . 
+Date : Lưu_trữ thông_tin về thời_gian . 
+Nhận_biết bằng dấu # ở đầu và ở cuối . 
+Ví_dụ : ngay = #12/12/2003# . 
+Boolean : biến logic có giá_trị true hay false dùng để gán giá_trị hay trong các câu_lệnh điều_kiện . 
+Variant : Lưu tất_cả các giá_trị khác nhau . 
+

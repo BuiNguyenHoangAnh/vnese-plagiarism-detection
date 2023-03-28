@@ -1,0 +1,4 @@
+Người sử_dụng có_thể tạo ra các thư_mục ảo cục_bộ cho các thư_mục được lưu_trữ trên bất_kỳ đĩa nào trên một máy_tính được cài_đặt IIS . 
+Khi cấu_hình một thư_mục ảo cục_bộ , người sử_dụng phải cài_đặt một biệt_danh cho thư_mục . 
+Biệt_danh này có_thể là tên thư_mục hoặc một tên bất_kỳ nào khác mà nó nhận_diện một Web site đến người sử_dụng . 
+Họ cũng phải cung_cấp một đường dẫn đầy_đủ cho thư_mục ảo . 

@@ -1,0 +1,1 @@
+Người sử_dụng có_thể tạo ra các thư_mục ảo cục_bộ cho các thư_mục được lưu_trữ trên bất_kỳ đĩa nào trên một máy_tính được cài_đặt IIS . 

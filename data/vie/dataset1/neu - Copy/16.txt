@@ -1,0 +1,1 @@
+Ngoài_ra trong Visual_Basic còn chứa một_số kiểu dữ_liệu thông_dụng khác cũng như Visual_Basic cho_phép lập_trình_viên tự định_nghĩa kiểu và cũng như hầu_hết các ngôn_ngữ_lập_trình khác , ngoài_ra Visual_Basic còn có các câu_lệnh chuẩn khác . 

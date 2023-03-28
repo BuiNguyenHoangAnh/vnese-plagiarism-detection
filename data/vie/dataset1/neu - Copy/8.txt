@@ -1,0 +1,22 @@
+Bên cạnh đó , Visual_Basic còn hỗ_trợ tính_năng kết_nối môi trương dữ_liệu Access , SQL . 
+Việc liên_kết dữ_liệu có_thể thực_hiện bằng nhiều cách . 
+Trong đó thiết_kế DataEnvironment là một điểm mới trong VB 60 . 
+Nó dùng để quản_lý một_cách trực_quan việc kết_nối một cơ_sở_dữ_liệu . 
+Nghĩa_là khi ta có một thiết_kế DataEnvironment trong ứng_dụng thì ta có_thể quản_lý tất_cả các thông_tin gắn liền với kết_nối ở một nơi , chứ không phải như những kỹ_thuật cổ_điển nhúng thông_tin kết_nối trong CSDL trong chương_trình . 
+Đôi lúc , trên một cơ_sở_dữ_liệu có_thể tồn_tại nhiều phiên_bản khác nhau của các bảng trong các tài_khoản khác nhau để thử_nghiệm hệ_thống . 
+Chương_trình " Quản_lý khách_sạn " là chương_trình quản_lý cơ_sở_dữ_liệu ( lưu_trữ , tra_cứu ... ) tại khách_sạn . 
+Do đó việc dùng ngôn_ngữ VB 60 là thích_hợp , có_thể cải_tiến dùng CSDL phân_tán . 
+CSDL phân_tán là một cơ_sở_dữ_liệu gồm nhiều cơ_sở_dữ_liệu địa_phương có quan_hệ logic với nhau mà được phân_tán trên nhiều trạm làm_việc của một mạng máy_tính . 
+Đối_với người dùng tập_hợp cơ_sở_dữ_liệu nằm rãi rác trên mạng có liên_quan đến nhau khi truy_xuất sẽ được xem như là một cơ_sở_dữ_liệu duy_nhất . 
+Môi_trường làm_việc . 
+Hệ_thống máy_tính chủ_yếu được sử_dụng hiện_nay tại các khách_sạn là máy PC . 
+Đa_số người sử_dụng trên thực_tế đã làm_quen với tin_học với hệ_điều_hành Windows . 
+Hệ_thống chương_trình quản_lý khách_sạn sẽ rất tiện_dụng khi chạy trên môi_trường mạng . 
+Tuy_nhiên nó vẫn có_thể cài trên máy lẻ , áp_dụng với những cơ_sở chưa ứng_dụng mạng máy_tính trong quản_lý . 
+Tổng_quan lý_thuyết . 
+Đây là chương_trình quản_lý thực_hiện tin_học hoá vào trong lĩnh_vực quản_lý khách_sạn mà trước đây họ vẫn quản_lý theo lối thủ_công . 
+Cơ_sở_dữ_liệu của bài_toán này được phân_tích và thiết_kế theo phương_pháp MERISE ( Methode pour Rassembler les Idees_Sans_Effort : Các phương_pháp để tập_hợp các ý_tưởng không cần cố_gắng ) . 
+Một_số mặt mạnh của phương_pháp Merise là có cơ_sở khoa_học vững_chắc , hiện_tại nó là một trong những phương_pháp phân_tích được dùng nhiều ở Pháp và Châu Âu khi phải phân_tích và thiết_kế các hệ_thống lớn . 
+Là phương_pháp dung thiết_kế một hệ quản_trị cơ_sở_dữ_liệu hoàn_hảo từ những yêu_cầu cơ_bản ban_đầu , giúp từng bước cảm_nhận và hoàn_thành hệ_thống thông_tin một_cách logic . 
+Tuy_nhiên phương_pháp này cũng có một_số nhược_điểm là cồng_kềnh , do đó để giải_quyết các áp_dụng nhỏ , việc áp_dụng phương_pháp này nhiều lúc đưa đến việc kéo dài thời_gian , nặng_nề không đáng có . 
+

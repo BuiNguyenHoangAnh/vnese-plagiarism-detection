@@ -1,0 +1,42 @@
+Môi_trường làm_việc của ứng_dụng . 
+PWS ( Personal_Web_Server ) . 
+Cơ_sở_dữ_liệu : Microsoft_Access 98 . 
+Chuẩn kết_nối : ODBC . 
+Web_Server là một chương_trình ứng_dụng . 
+Trên web server chứa những site mà các máy con có_thể truy_xuất đến các site này . 
+Thông_thường trên máy có hệ_điều_hành Windows_98 thì web server là Personal_Web_Server , trên máy WindowsNT_Server thì dùng phần_mềm IIS 4 . 0 . 
+Về cơ_sở_dữ_liệu , các ứng_dụng thực_tế hiện_nay người_ta thường hay sử_dụng SQL_Server . 
+Nhưng trong chương_trình ta chỉ dùng cơ_sở_dữ_liệu để lưu_trữ thông_tin vào các bảng nên việc chọn SQL_Server hay MS_Access là không quan_trọng . 
+Về chuẩn ODBC , ODBC là viết tắt của Open_Database_Connectivity ( hệ_thống kết_nối CSDL mở ) . 
+ODBC được coi như là một giao_thức chuẩn để giao_tiếp giữa chương_trình ứng_dụng với hệ_thống các bảng của cơ_sở_dữ_liệu . 
+Các công_cụ lập_trình . 
+Jscript : Jscript được phát_triển bởi Microsoft nhằn làm tăng tính_năng cho trình_duyệt Internet_Explorer . 
+Vbscript : Vbscript cũng do Microsoft phát_triển . 
+Cũng như Jscript , Vbscript được chèn vào trang web để làm tăng thêm tính_năng tương_tác cho trang web . 
+ASP : Microsoft_Active_Server_Page ( ASP ) là một môi_trường kịch_bản trên máy_chủ dùng để tạo ra những ứng_dụng Web_động và có tương_tác . 
+ASP có một tập các đối_tượng có sẵn với nhiều tính_năng phong_phú , khả_năng hỗ_trợ VBScript và JScript cùng với một_số thành_phần ActiveX khác kèm theo . 
+Visual Inter_Dev : Visual_InterDev là một phần_mềm được phát_triển bởi Microsoft . 
+Đây là một phần_mềm có hỗ_trợ cho lập_trình thiết_kế web đặc_biệt phần_mềm có cho_phép người lập_trình có_thể nhìn thấy trực_tiếp trang web của mình đang thiết_kế . 
+Visual_InterDev hỗ_trợ rất mạnh cho việc lập_trình các trang web có tương_tác . 
+DHTML : Là sự kết_hợp giữa các thuộc_tính của HTML , JavaScript và Vbscript . 
+Sau khi đã trình_bày những khái_niệm cơ_bản cũng như những công_cụ trợ_giúp để xây_dựng đề_án này thì bây_giờ em xin được phân_tích chương_trình . 
+Phân_tích chương_trình bao_gồm . 
+Đầu_tiên là tổng_quát về chức_năng : Bao_gồm . 
+Gửi bài lên diễn_đàn . 
+Xem bài đã được gửi theo các chủ_đề khác nhau . 
+Trả_lời bài đã được gửi . 
+Tìm_kiếm một bài . 
+Đăng_ký trở_thành thành_viên của diễn_đàn . 
+Đánh_dấu bài ưa_thích . 
+Xoá các bài đã có trên diễn_đàn . 
+Thêm người sử_dụng . 
+Xoá người sử_dụng . 
+Thêm chủ_đề cho diễn_đàn . 
+Xoá chủ_đề . 
+Các vấn_đề khi quyết các chức_năng này là . 
+Thiết_kế tổng_quát ứng_dụng : nhằm giúp người lập_trình dễ phát_triển ứng_dụng một_cách có tổ_chức , đúng hướng , đúng yêu_cầu đã đề ra . 
+Thiết_kế cơ_sở_dữ_liệu : đây là phần quan_trọng , có liên_quan đến tính tối_ưu của hệ_thống . 
+Xây_dựng giao_diện : tạo điều_kiện thuận_lợi cho người sử_dụng khi gửi các yêu_cầu của mình đến web server . 
+Viết các trang web để thực_hiện các chức_năng của chương_trình : dựa vào ASP và các ngôn_ngữ script để tạo ra những modul cho chương_trình . 
+Kiểm_tra , sửa lỗi chương_trình . 
+

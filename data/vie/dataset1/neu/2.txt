@@ -1,0 +1,1 @@
+Bên cạnh đó , Visual_Basic còn hỗ_trợ tính_năng kết_nối môi trương dữ_liệu Access , SQL . Việc liên_kết dữ_liệu có_thể thực_hiện bằng nhiều cách .

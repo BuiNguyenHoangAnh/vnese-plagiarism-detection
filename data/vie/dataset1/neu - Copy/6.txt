@@ -1,0 +1,42 @@
+Quản_lý xuất / nhập hàng là một trong các hoạt_động chính của công_ty . 
+Hệ_thống quản_lý hàng_hoá và công_nợ được tích_hợp chung trong hệ_thống thông_tin quản_lý kinh_doanh của công_ty . 
+Tuy có những tính_năng và ưu_điểm như đã trình_bày ở trên nhưng nó cũng còn nhiều hạn_chế như chạy chậm khi khối_lượng dữ_liệu lớn , khả_năng quản_lý khối_lượng dữ_liệu còn hạn_chế , khả_năng bảo_mật chưa cao , giao_diện chưa thân_thiện với người sử_dụng . 
+SƠ_ĐỒ PHÂN_RÃ CHỨC_NĂNG ( BPC ) CỦA HỆ_THỐNG . 
+Sơ_đồ phân_rã tổng_thể . 
+Sơ_đồ chức_năng chi_tiết . 
+Chức_năng quản_lý nhập hàng . 
+BIỂU_ĐỒ LUỒNG DỮ_LIỆU . 
+MÔ_HÌNH THỰC_THỂ . 
+MÔ_HÌNH TỔ_CHỨC DỮ_LIỆU . 
+LỰA_CHỌN MÔI_TRƯỜNG CÀI_ĐẶT VÀ GIỚI_THIỆU CÁC CÔNG_NGHỆ LIÊN_QUAN . 
+Với mục_tiêu xây_dựng một phần_mềm đáp_ứng được các chức_năng trong việc quản_lý giao_dịch xuất nhập , đồng_thời dễ sử_dụng và thân_thuộc với người sử_dụng , em lựa_chọn giải_pháp lập_trình ứng_dụng trên nền Windows được cài_đặt bằng ngô ngữ lập_trình Microsoft_VisualBasic 60 với hệ quản_trị cơ_sở_dữ_liệu Microsoft_SQL_Server . 
+Giới_thiệu về Visual_Basic 60 . 
+Microsoft_Visual_Basic 60 tuy không còn là hiện_thân mới nhất và độc_đáo của ngôn_ngữ BAISIC như cách đây vài năm nhưng nó vẫn còn tính_năng ưu_việt cho bạn hệ_thống phát_triển ứng_dụng của Windows toàn_diện và trọn_gói . 
+Microsoft_Visual_Basic 6.0 có nhiều công_cụ hổ trợ mà bạn có_thể viết thêm và biên_dịch các file trợ_giúp . 
+Nó bao_gồm . 
+Các công_cụ điều_khiển ( controls ) . 
+Bao_gồm các công_cụ trên cửa_sổ toolbox , những cái mà bạn có_thể đặt vào biểu_mẫu để tương_tác với người dùng và điều_khiển luồng chương_trình . 
+Chương_trình ( Program ) . 
+Là tập_hợp các câu_lệnh để cho máy_tính thực_hiện các công_việc nào đó theo ý_muốn người lập_trình . 
+Bản_thân Microsoft_Visual_Basic là trình ứng_dụng . 
+Bạn tải và thực_hiện hệ_thống giống như thực_hiện các chương_trình ứng_dụng khác . 
+Nó còn là công_cụ rất tuyệt_vời , các lập_trình_viên viết , kiểm_tra và chạy các trình ứng_dụng của Windows . 
+Nó cung_cấp các Form windows là vùng làm_việc , nó duy_trì các đối_tượng tương_tác của chương_trình như các nút lệnh , các nhãn , các hợp thoại văn_bản , các thanh cuộn và các công_cụ điều_khiển khác . 
+Visual_Basic 60 giúp tạo các lớp và điều_khiển ActiveX phong_phú hơn . 
+Giờ_đây ta có_thể lưu dữ_liệu qua các lớp tự_tạo từ session này sang session khác thông_qua túi thuộc_tính ( Property_bag ) . 
+Ta cũng có_thể tạo hai kiểu lớp hiệu_chỉnh data-aware là data source và Data consumers . 
+Các kiểu lớp dữ_liệu này hạot động tương_tự như các đối_tượng dữ_liệu ADO , nhưng chúng đáp_ứng được yêu_cầu của khách_hàng nhiều hơn . 
+session kiểm_soát một trang tham_gia vào HTTP session hay không với hai giá_trị " true " và " false " . 
+Giá_trị mặc_định là " true " cho_biết biến ngầm định session nên được nối_kết với session hiện_hành . 
+Đối_với điều_khiển ActiveX , ta có_thể tạo các điều_khiển " hạng nhẹ " trong Visual_Basic 60 . 
+Đây là các điều_khiển " Windowless " tốn ít tài_nguyên hệ_thống hưon các điều_khiển khác . 
+Để xác_định một điều_khiển có phải " Windowless " hay không Visual_Basic 60 cung_cấp thuộc_tính mới HasDC . 
+Add-in là công_cụ Visual_Basic mà các lập_trình_viên có_thể lập_trình để tạo cho các lập_trình_viên khác . 
+Nhưng Add-in được viết trong Visual_Basic chỉ có_thể thi_hành trong IDE của VB . 
+Trình tạo ứng_dụng Application_Wizard , trình biểu_mẫu dữ_liệu ( Data_Forms_Wizard ) là những phần thêm mới . 
+ĐÁNH_GIÁ HỆ_THỐNG . 
+Những kết_quả đạt được . 
+Hệ_thống quản_lý xuất nhập hàng giúp cho việc quản_lý mua_bán của công_ty được thực_hiện một_cách thuận_tiện nhanh_chóng và an_toàn , góp_phần tiết_kiệm thời_gian và giảm bớt các công_việc thủ_công ( tuy_nhiên không_thể thay_thế hoàn_toàn ) . 
+Hệ_thống đáp_ứng được những yêu_cầu cơ_bản trong công_tác cập_nhật , xử_lý xuất nhập hàng một_cách nhanh_chóng , chính_xác như cập_nhật dữ_liệu , tìm_kiếm thông_tin , báo_cáo tổng_hợp xuất , nhập , tồn hàng . 
+Giao_diện thân_thiện và dễ_dàng cho người sử_dụng , kết_hợp được các công_nghệ độc_lập nền do đó có_thể chạy trên nhiều nền , nhiều Web_Server và nhiều Web_Broswer khác nhau . 
+

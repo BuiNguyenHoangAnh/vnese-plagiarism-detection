@@ -1,0 +1,15 @@
+GIỚI_THIỆU NGÔN_NGỮ_LẬP_TRÌNH . 
+Visual_Basic là một ngôn_ngữ_lập_trình khá phổ_biến hiện_nay , nó là một công_cụ rất tiện_lợi cho hầu_hết các chương_trình ứng_dụng , các chương_trình sử lý theo yêu_cầu của người dùng . 
+Điều đặc_biệt của ngôn_ngữ Visual_Basic đó là nó dùng ngay giao_diện người dùng đồ_hoạ , hay GUI ( Graphical_User_Interface ) . 
+Điều đặc_biệt , Visual_Basic cho_phép bổ xung các menu , hộp văn_bản , nút lệnh , nút tuỳ_chọn ( cho các lựa_chọn loại_trừ ) , các hộp kiểm_tra ( cho các lựa_chọn không loại_trừ ) , các hộp danh_sách , thanh cuốn , các hộp tập_tin và thư_mục cho các cửa_sổ trống . 
+Bạn có_thể dùng các lưới ( Grid ) để quản_lý dữ_liệu theo bảng . 
+Bạn có_thể truyền_thông với các ứng_dụng Windows khác , và có_thể là quan_trọng nhất , bạn sẽ có một phương_pháp dễ_dàng để người dùng điều kiểm và truy_cập các cơ_sở_dữ_liệu . 
+( Những thành_phần đó đượcVisual basic gọi là Điều_Kiểm ( control ) ) . 
+Có_thể có nhiều cửa_sổ trên màn_hình . 
+Các cửa_sổ này có toàn quền truy_cập clipboard và các thông_tin trong hầu_hết các ứng_dụng Windows khác chạy cùng lúc . 
+Bạn có_thể dùng Visual_Basic để truyền_thông với các ứng_dụng khác đang chạy dưới Windows . 
+Dùng phiên_bản hiện_đại nhất của công_nghệ COM / OLE trong Windows . 
+Phương_thức lập_trình của Visual_Basic là thiết_kế trước , viết lệnh sau . 
+Vì vậy môi_trường làm_việc không phức_tạp như các ngôn_ngữ_lập_trình khác . 
+Chúng bao_gồm các đối_tượng . 
+Cửa_sổ thuộc_tính . 

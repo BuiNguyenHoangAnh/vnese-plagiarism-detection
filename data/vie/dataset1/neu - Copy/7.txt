@@ -1,0 +1,29 @@
+Các bảng có cùng tồn_tại trên hai tài_khoản người dùng khác nhau của Oracle trong cùng một cơ_sở_dữ_liệu vật_lý . 
+Đôi lúc , trên một cơ_sở_dữ_liệu có_thể tồn_tại nhiều phiên_bản khác nhau của các bảng trong các tài_khoản khác nhau để người phát_triển có_thể thử_nghiệm hệ_thống . 
+Thông_thường , người_ta hay xem tài_khoản người dùng Oracle như một cơ_sở_dữ_liệu , nhưng điều này không đúng hoàn_toàn . 
+Ta có_thể sử_dụng hai tài_khoản người dùng để giữ dữ_liệu cho hai hệ ứng_dụng khác nhau ; ta sẽ có hai cơ_sở_dữ_liệu logic được cài_đặt trên cùng cơ_sở_dữ_liệu vật_lý sử_dụng hai tài_khoản người dùng Oracle . 
+SCHEMA cơ_sở_dữ_liệu . 
+Tổng_quan về các đối_tượng của Schema . 
+Một schema kết_hợp với một user cơ_sở_dữ_liệu . 
+Một schema là một tập các đối_tượng schema sau : table , view , sequence , synonym , index , cluster , database link , snapshot , store procedure , function , triger , package . 
+Các đối_tượng schema là cấu_trúc lưu_trữ dữ_liệu logic . 
+Các đối_tượng schema không có mối tương_ứng một-một với các tập_tin trên đĩa lưu_trữ thông_tin của nó . Tuy_nhiên , Oracle lưu một đối_tượng schema trong một không_gian bảng của cơ_sở_dữ_liệu về mặt logic . 
+Dữ_liệu của mỗi đối_tượng được lưu_trữ vật_lý bên trong một hay nhiều tập_tin của không_gian bảng . 
+Đối_với một đối_tượng như : table , index , và cluster ta có_thể chỉ định_lượng không_gian đĩa Oracle định_vị cho đối_tượng bên trong tập_tin dữ_liệu của không_gian bảng . 
+KIẾN_TRÚC CỦA NET8 . 
+MÔI_TRƯỜNG MẠNG . 
+Cơ_sở_dữ_liệu của Oracle và các ứng_dụng phía client hoạt_động theo cách của một môi_trường xử_lý phân_tán . 
+Tiến_trình xử_lý phân_tán là sự tương_tác giữa hai hay nhiều máy cùng truy_xuất vào cơ_sở_dữ_liệu khác nhau để hoàn_tất một thao_tác chuyển tác về xử_lý và truy_xuất dữ_liệu . 
+Các ứng_dụng bao_gồm những công_cụ của Oracle như SQL*_Plus , Schema_Manager chẳng_hạn đều có khả_năng yêu_cầu nhiều Server chứa cơ_sở_dữ_liệu đồng_thời thực_hiện các thao_tác khác nhau để trả về một kết_quả truy_vấn duy_nhất . 
+Trong một cấu_hình mạng điển_hình , máy client và server được cài_đặt như là những thực_thể tách_biệt nhau về mặt vật_lý cũng như logic . 
+Cấu_hình mạng tách_biệt này cho_phép thể_hiện sự phân_công lao_động giữa các và phân_bổ tài_nguyên một_cách hiệu_quả . 
+Những ,máy này không đòi_hỏi cấu_hình mạnh nên chỉ là những máy cần tốc_độ xử_lý và bộ_nhớ ở mức bình_thường là đủ . 
+Ngược lại server được xem như là những máy chuyên_biệt , lưu_trữ tài_nguyên và dữ_liệu để phân_bố cho các client . 
+Máy server thường trang_bị cấu_hình tối_đa về dung_lượng đĩa , tốc_độ xử_lý , bộ_nhớ , cơ_chế bảo_mật và sao lưu dữ_liệu ... 
+Và như vậy giữa client và Server đã có sự phân_công và cùng hợp_tác để phục_vụ cho mục_đích xử_lý dữ_liệu của các chương_trình . 
+Cơ_sở_dữ_liệu phân_tán . 
+Là một cơ_sở_dữ_liệu gồm nhiều cơ_sở_dữ_liệu địa_phương có quan_hệ logic với nhau mà được phân_tán trên nhiều trạm làm_việc của một mạng máy_tính . 
+Đối_với người dùng tập_hợp cơ_sở_dữ_liệu nằm rãi rác trên mạng có liên_quan đến nhau khi truy_xuất sẽ được xem như là một cơ_sở_dữ_liệu duy_nhất . 
+Các server chứa cơ_sở_dữ_liệu phân_tán thường được liên_kết với nhau bằng data link hoặc bằng đường dẫn từ một cơ_sở_dữ_liệu này đến một cơ_sở_dữ_liệu khác . 
+Xu_thế phát_triển của cơ_sở_dữ_liệu phân_tán . 
+

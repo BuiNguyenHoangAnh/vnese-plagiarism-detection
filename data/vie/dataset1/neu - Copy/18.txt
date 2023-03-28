@@ -1,0 +1,2 @@
+Với một bộ đầy_đủ IIS và Windows_NT_4.0 người sử_dụng sẽ nhận được sự thuận_tiện khi xây_dựng một cơ_chế bảo_mật trên Windows_NT server và Windows_NT_File_System ( NTFS ) . 
+Người sử_dụng có_thể sử_dụng các kỷ thuật Internet thêm vào được cung_cấp bởi IIS để nâng_cao các tính_năng Microsoft_Back_Office , bao_gồm các thành_phần sau . 

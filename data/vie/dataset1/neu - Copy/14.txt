@@ -1,0 +1,3 @@
+Điều đặc_biệt của ngôn_ngữ Visual_Basic đó là nó dùng ngay giao_diện người dùng đồ_hoạ , hay GUI ( Graphical_User_Interface ) . 
+Trong luận_văn này em chủ_yếu đi_sâu vào đối_tượng ADO . 
+Vì ADO là một công_cụ truy_cập dữ_liệu rất hữu_hiệu và ADO cũng được cài_đặt trong chương_trình . 

@@ -1,0 +1,30 @@
+Kỹ_thuật hướng đối_tượng đề_xướng việc phân_chia tại vài mức khác nhau . 
+Việc kế_thừa cả cấu_trúc dữ_liệu và hành_vi cho_phép cấu_trúc chung được chia_sẻ trong vài lớp con giống nhau mà không dư_thừa . 
+Việc phân_chia mã sử_dụng kế_thừa là một trong những tiến_bộ chính của ngôn_ngữ hướng đối_tượng . 
+Phát_triển hướng đối_tượng không_chỉ cho_phép chia_sẻ thông_tin trong ứng_dụng mà_còn đưa ra triển_vọng của việc sử_dụng lại các thiết_kế và mã trong các đề_án tượng lai . 
+Phát_triển hướng đối_tượng cung_cấp các công_cụ như là trừu_tượng bọc kín , kế_thừa để xây_dựng các thư_viện của các thành_phần có_thể dùng lại được . 
+JDBC là một chuẩn mở_rộng của Java cho việc truy_cập dữ_liệu , mà cho_phép người lập_trình Java mã_hoá đến giao_diện lập_trình ứng_dụng cơ_sở_dữ_liệu quan_hệ đồng_nhất . 
+Bằng cách dùng JDBC , người lập_trình Java có_thể trình_diễn việc kết_nối cơ sỡ dữ_liệu , xuất các câu_lệnh SQL , kết_quả của việc xử_lý cơ_sở_dữ_liệu , và nhiều cách linh_động liên_quan khác . 
+Clients lập_trình đến JDBC API đồng_nhất , cái này được thực_hiện bởi trình điều_khiển JDBC ( JDBC_Driver ) , một trình điều_hợp mà biết cách làm thế_nào giao_tiếp đến cơ_sở_dữ_liệu với cách độc_quyền . 
+JDBC tương_tự như chuẩn ODBC ( Open_Database_Connectivity ) , và cầu_nối thông_qua hai thành_phần thao_tác khá tốt là JDBC-ODBC . 
+JDBC 20 chứa sự hỗ_trợ cho sự thăm_dò kết_nối cơ_sở_dữ_liệu , tăng sự độc_lập cơ_sở_dữ_liệu đối_với mã ứng_dụng của bạn . 
+SQL là giải_pháp chuẩn để thao_tác với cơ_sở_dữ_liệu . 
+Nó được thực_hiện theo nhiều dạng khác nhau trong các hệ_thống cơ_sở_dữ_liệu quan_hệ . 
+kết_nốI cơ_sở_dữ_liệu qua cầu nốI JDBC ( Java_Database_Connectivity ) . 
+Giới_thiệu về RMI ( Remote_Method_Invocation ) . 
+Mục_đích là để tạo ra một Java distributed object model . 
+Trong kiến_trúc của RMI , có một yếu_tố khá quan_trọng mà ta cần phải xác_định rõ_ràng , đó là việc định_nghĩa ra các method và việc thực_thi các method đó là hoàn_toàn khác nhau . 
+RMI cho_phép ta định_nghĩa 1 method với mã thực_thi của nó trên 1 JVM ( Java_Virtual_Machine ) và có_thể gọi để thực_thi method đó trên một JVM khác . 
+Hình 28 : gọi thực_thi phương_thức thông_qua RMI . 
+RMI Architecture_Layers : kiến_trúc của RMI có_thể phân vào 3 lớp sau . 
+KẾT_LUẬN . 
+Đồ_án tốt_nghiệp này em đi vào tiếp_cận công_nghệ J2EE , công_cụ UML , Rational_Rose . 
+Các công_nghệ , công_cụ này tương_đối mới nhưng em đã cố_gắng tìm_hiểu . 
+Trong đồ_án này , em xây_dựng một ứng_dụng J2EE cùng với Rational_Rose và UML . 
+Ứng_dụng này mang tính demo , chưa thành một hệ_thống hoàn_chỉnh vì đây chỉ là một phần của hệ_thống thương_mại điện_tử . 
+Mặc_dù đã cố_gắng nhưng em chỉ mới giới_thiệu về công_nghệ J2EE , UML ... 
+Những kiến_thức này hết_sức tổng_quát , với số_lượng công_nghệ mới khá nhiều nên không_thể nắm_bắt một_cách chi_tiết hết được . 
+Trong thời_gian ngắn em đã tiếp_cận các công_nghệ trên , khó tránh những sai_sót , rất mong thầy hướng_dẫn tận_tình chỉ_bảo , cũng như đánh_giá , nhận_xét . 
+Cuối_cùng tôi xin chân_thành cám_ơn đến thầy Trần_Nguyễn_Thanh_Tùng đã tạo điều_kiện , giúp_đỡ tôi trong quá_trình nghiên_cứu và phát_triển đề_tài . 
+Mặc_dù không được trực_tiếp , hạn_chế về khoảng_cách và thời_gian nhưng thầy đã đóng_góp những ý_kiến quý báo cho tôi hoàn_thành đề_tài . 
+

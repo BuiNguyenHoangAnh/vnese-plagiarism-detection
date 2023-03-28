@@ -1,0 +1,17 @@
+Mô_hình ADO có một_số thuộc_tính mà các mô_hình cơ_sở_dữ_liệu khác như DAO và RDO không có . 
+Các thuộc_tính này điều_khiển cách_thức tạo ra Dataset và quyền_hạn truy_cập trong một kết_nối dữ_liệu , có bảy thuộc_tính như sau . 
+Connection_String ( Chuỗi kết_nối ) . 
+Command_Texxt ( Văn_bản câu_lệnh ) . 
+Command_Type ( Kiểu câu_lệnh ) . 
+Cursor_Location ( Định_vị con_trỏ ) . 
+Cursor_Type ( Kiểu con_trỏ ) . 
+Look_Type ( Kiểu khoá ) . 
+Mode_Type ( Kiểu chế_độ làm_việc ) . 
+Ví_dụ : Để tạo kết_nối đến cơ_sở_dữ_liệu SQL_Server với tên cơ_sở_dữ_liệu dbBenhNhan ta có mã lệnh như sau . 
+Public_Sub_OpenConnection ( ) . 
+' Tạo kết_nối đến nguồn dữ_liệu . 
+Set cn = New_ADODBConnection . 
+cnProvider = " SQLOLEDB1; " . 
+cnConnectionString = " Integrated Security=SSPI;Persist Security_Info=False;Initial_Catalog=dbBenhNhan " . 
+cnOpen . 
+End_Sub . 
